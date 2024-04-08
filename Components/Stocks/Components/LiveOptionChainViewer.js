@@ -8,7 +8,7 @@ const LiveOptionChainViewer = () => {
     // Function to fetch live option chain data
     const fetchOptionChain = async () => {
       try {
-        const token = "Z0RDZ2E5Y2VQcURnWHZYX0J4aHo2Skhja2lJc3hmMWg2emtfR29JYjgxVT0"; // Replace 'your-header-token' with your actual header token
+        const token = "Key"; // Replace 'your-header-token' with your actual header token
         const response = await fetch('https://api.marketdata.app/v1/options/chain/AAPL', {
           headers: {
             'Authorization': `Bearer ${token}`,
