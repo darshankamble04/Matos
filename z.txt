@@ -1,0 +1,6 @@
+9. you are working on a calender applicaton and read to get list of 
+all event owners who are not on vacation 
+
+the result should have the following columns : dt/ title /full_name/ email_address
+
+it should be sorted in ascending order by dt and limited to the first five records
